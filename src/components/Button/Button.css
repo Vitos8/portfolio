@@ -1,0 +1,27 @@
+.btn{
+     cursor: pointer;
+     font-weight: 500;
+     border: 2px solid#2978b5 ;
+     position: relative;
+     z-index: 1;
+}
+
+.btn:before{
+     background-color: #2978b5;
+     bottom: 0;
+     content: "";
+     left: 0;
+     position: absolute;
+     right: 100%;
+     top: 0;
+     transition: right .2s ease-in-out;
+     z-index: -1;
+}
+
+.btn:hover:before{
+     right: 0;
+}
+
+.btn:hover{
+     color: #FFFF;
+}

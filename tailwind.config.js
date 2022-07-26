@@ -4,7 +4,7 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      xs: '13px', 
+      xs: '15px', 
       base: '17px', 
       lg: '34px', 
       xl: '65px', 
@@ -16,7 +16,9 @@ module.exports = {
       'lg': {'max': '992px'},
       'xm': {'max': '768px'},
       'base': {'max': '640px'},
-      'xs': {'max': '480px'},
+      'xs': {'max': '513px'},
+      'xxs': {'max': '400px'}
+
     },
 
     container: {

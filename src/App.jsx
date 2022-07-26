@@ -3,9 +3,15 @@ import Icons from "./components/Icons/icons";
 import BgAnimation from "./components/BgAnimation/BgAnimation.jsx";
 import CloseSvg from "./assets/img/close.svg";
 import {About, Header, Projects, Skills, Contacts} from './pages/index';
+import AOS from 'aos';
+import "./assets/aos/dist/aos.css";
 
 function App() {
     const [burger, setBurger ] = React.useState(false);
+    
+    React.useEffect(() => {
+        AOS.init();
+    }, []);
 
     return (
         <div className=" h-full  relative">
@@ -14,9 +20,9 @@ function App() {
                 <div className="realtive">
                     <BgAnimation/>
                 </div>
-                <div className="mt-[150px] pb-[280px]">
-                    <h1 className='font-bold text-blue text-xl mb-7'>Vitalik Golubovich</h1>
-                    <p className="text-black font-bold text-lg mb-5">Junior Frontend Developer</p>
+                <div data-aos="fade-left"   data-aos-duration="2000" className="mt-[150px] pb-[280px] xs:pb-[170px]">
+                    <h1   className='font-bold text-blue text-xl mb-7 xm:text-[50px] xs:text-[37px] xxs:text-[30px]'>Vitalik Golubovich</h1>
+                    <p className="text-black font-bold text-lg mb-5 xm:text-[22px] xs:text-[19px] xxs:text-[15px]">Junior Frontend Developer</p>
                     <Icons/>
                 </div>
                 <About/>

@@ -104,7 +104,12 @@ body {
 
 .card{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    transition: transform .4s ease;
+    transition: backgorund .4s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: rgba(207, 214, 240, 0.326);
 }
 
 .progress{

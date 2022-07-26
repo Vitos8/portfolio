@@ -5,7 +5,7 @@ export const projects = [
           stack: ['React', 'Scss', 'React-router', 'json-server', 'Axios'],
           code: 'https://github.com/Vitos8/Creative-todo',
           site: 'https://creative-todo.herokuapp.com/',
-          animate: 'right'
+          display: 'hidden'
      },
      {
           title: 'Game store',
@@ -13,7 +13,7 @@ export const projects = [
           stack: ['Redux-Toolkit', 'Scss', 'React-router', 'Axios', 'Game API'],
           code: 'https://github.com/Vitos8/game-store',
           site: 'https://game-store-psi.vercel.app/',
-          animate: 'left'
+          display: 'block'
      },
      {
           title: 'Quiz app',
@@ -21,7 +21,7 @@ export const projects = [
           stack: ['Typescript', 'Scss', 'Bootstrap', 'React-router','Quiz API'],
           code: 'https://github.com/Vitos8/quiz-app',
           site: 'https://quiz-app-vitos8.vercel.app/',
-          animate: 'right'
+          display: 'block'
      },
      {
           title: 'Booking app',
@@ -29,7 +29,7 @@ export const projects = [
           stack: ['Native js', 'HTML', 'CSS'],
           code: 'https://github.com/Vitos8/Booking-app',
           site: 'https://vitos8.github.io/Booking-app/',
-          animate: 'left'
+          display: 'block'
      },
      {
           title: 'Tesla-lending',
@@ -37,7 +37,7 @@ export const projects = [
           stack: ['HTML' ,'Scss'],
           code: 'https://github.com/Vitos8/Tesla-lending',
           site: 'https://vitos8.github.io/Tesla-lending/',
-          animate: 'right'
+          display: 'block'
      },
      {
           title: 'Trees-lending',
@@ -45,7 +45,7 @@ export const projects = [
           stack: ['HTML', 'CSS'],
           code: 'https://github.com/Vitos8/Tree-landing',
           site: 'https://vitos8.github.io/Tree-landing/',
-          animate: 'left'
+          display: 'block'
      },
 ];
 

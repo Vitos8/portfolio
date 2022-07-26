@@ -15,7 +15,7 @@ function App() {
     }, []);
 
     return (
-        <div className=" h-full  relative dark:bg-darkBg">
+        <div className=" h-full  relative ">
             <ArrowSvg/>
             <div className="container">
                 <Header isBurger={()=> setBurger(true)}/>

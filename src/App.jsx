@@ -22,7 +22,7 @@ function App() {
                 <div className="realtive">
                     <BgAnimation/>
                 </div>
-                <div data-aos="fade-left"   data-aos-duration="2000" className="mt-[150px] pb-[280px] xs:pb-[170px]">
+                <div data-aos="fade-left"   data-aos-duration="2000" className="mt-[150px] pb-[280px] xs:pb-[170px] ">
                     <h1   className='font-bold text-blue text-xl mb-7 xm:text-[50px] xs:text-[37px] xxs:text-[30px] dark:text-darkPurlpe'>Vitalik Golubovich</h1>
                     <p className="text-black font-bold text-lg mb-5 xm:text-[22px] xs:text-[19px] xxs:text-[15px] dark:text-darkLightPurlpe">Junior Frontend Developer</p>
                     <Icons/>

@@ -24,11 +24,11 @@ export const projects = [
           display: 'block'
      },
      {
-          title: 'Booking app',
-          src: 'booking.png',
-          stack: ['Native js', 'HTML', 'CSS'],
-          code: 'https://github.com/Vitos8/Booking-app',
-          site: 'https://vitos8.github.io/Booking-app/',
+          title: 'Rick and Morty App',
+          src: 'rick.png',
+          stack: ['React', 'Tailwind', 'GraphQL', 'Apollo client', 'Rick and Morty API'],
+          code: 'https://github.com/Vitos8/QraphQL--Apolo-tutorial',
+          site: 'https://qraph-ql-apolo-tutorial.vercel.app/',
           display: 'block'
      },
      {
@@ -45,6 +45,14 @@ export const projects = [
           stack: ['HTML', 'CSS'],
           code: 'https://github.com/Vitos8/Tree-landing',
           site: 'https://vitos8.github.io/Tree-landing/',
+          display: 'block'
+     },
+     {
+          title: 'Booking app',
+          src: 'booking.png',
+          stack: ['Native js', 'HTML', 'CSS'],
+          code: 'https://github.com/Vitos8/Booking-app',
+          site: 'https://vitos8.github.io/Booking-app/',
           display: 'block'
      },
 ];

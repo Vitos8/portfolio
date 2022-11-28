@@ -44,7 +44,7 @@ export const projects = [
           src: 'currency.png',
           stack: ['React', 'Tailwind', 'Typescript', 'Currency API'],
           code: 'https://github.com/Vitos8/currency-converter',
-          site: 'currency-converter-vitos8.vercel.app/',
+          site: 'https://currency-converter-vitos8.vercel.app/',
           display: 'block'
      },
      {

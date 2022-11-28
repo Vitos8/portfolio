@@ -1,5 +1,13 @@
 export const projects = [
      {
+          title: 'Movie app',
+          src: 'movie.png',
+          stack: ['React', 'Scss', 'React-router', 'Redux-Toolkit', 'AsyncThunk', 'Firebase', 'Typescript'],
+          code: 'https://github.com/Vitos8/moive-app',
+          site: 'https://moive-app-red.vercel.app',
+          display: 'hidden'
+     },
+     {
           title: 'Creative todo',
           src: 'todo.png',
           stack: ['React', 'Scss', 'React-router', 'json-server', 'Axios'],
@@ -32,19 +40,27 @@ export const projects = [
           display: 'block'
      },
      {
+          title: 'Currency-Converter',
+          src: 'currency.png',
+          stack: ['React', 'Tailwind', 'Typescript', 'Currency API'],
+          code: 'https://github.com/Vitos8/currency-converter',
+          site: 'currency-converter-vitos8.vercel.app/',
+          display: 'block'
+     },
+     {
+          title: 'Digital-Lending',
+          src: 'digital.png',
+          stack: ['HTML' ,'Scss', 'Gulp', "Webpack", 'js'],
+          code: 'https://github.com/Vitos8/Phenomenon-Studio',
+          site: 'https://vitos8.github.io/Phenomen-Studio--Deploy-/',
+          display: 'block'
+     },
+     {
           title: 'Tesla-lending',
           src: 'tesla.png',
           stack: ['HTML' ,'Scss'],
           code: 'https://github.com/Vitos8/Tesla-lending',
           site: 'https://vitos8.github.io/Tesla-lending/',
-          display: 'block'
-     },
-     {
-          title: 'Trees-lending',
-          src: 'trees.png',
-          stack: ['HTML', 'CSS'],
-          code: 'https://github.com/Vitos8/Tree-landing',
-          site: 'https://vitos8.github.io/Tree-landing/',
           display: 'block'
      },
      {
@@ -85,8 +101,13 @@ export const progres = [
      },
      {
           tech: 'Typescript',
-          name: 'Beginner',
-          level: '25%'
+          name: 'Regualr',
+          level: '50%'
+     },
+     {
+          tech: 'Next.js',
+          name: 'Regualr',
+          level: '50%'
      },
      {
           tech: 'GraphQL & Apollo ',

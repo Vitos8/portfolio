@@ -39,14 +39,14 @@ export const projects = [
           site: 'https://qraph-ql-apolo-tutorial.vercel.app/',
           display: 'block'
      },
-     {
-          title: 'Currency-Converter',
-          src: 'currency.png',
-          stack: ['React', 'Tailwind', 'Typescript', 'Currency API'],
-          code: 'https://github.com/Vitos8/currency-converter',
-          site: 'https://currency-converter-vitos8.vercel.app/',
-          display: 'block'
-     },
+     // {
+     //      title: 'Currency-Converter',
+     //      src: 'currency.png',
+     //      stack: ['React', 'Tailwind', 'Typescript', 'Currency API'],
+     //      code: 'https://github.com/Vitos8/currency-converter',
+     //      site: 'https://currency-converter-vitos8.vercel.app/',
+     //      display: 'hidden'
+     // },
      {
           title: 'Digital-Lending',
           src: 'digital.png',
@@ -63,14 +63,14 @@ export const projects = [
           site: 'https://vitos8.github.io/Tesla-lending/',
           display: 'block'
      },
-     {
-          title: 'Booking app',
-          src: 'booking.png',
-          stack: ['Native js', 'HTML', 'CSS'],
-          code: 'https://github.com/Vitos8/Booking-app',
-          site: 'https://vitos8.github.io/Booking-app/',
-          display: 'block'
-     },
+     // {
+     //      title: 'Booking app',
+     //      src: 'booking.png',
+     //      stack: ['Native js', 'HTML', 'CSS'],
+     //      code: 'https://github.com/Vitos8/Booking-app',
+     //      site: 'https://vitos8.github.io/Booking-app/',
+     //      display: 'hidden'
+     // },
 ];
 
 export const progres = [
@@ -85,7 +85,7 @@ export const progres = [
           level: '75%'
      },
      {
-          tech: 'Bootstrap / Tailwind ',
+          tech: 'Tailwind ',
           name: 'Advanced',
           level: '75%'
      },

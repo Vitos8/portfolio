@@ -19,11 +19,11 @@ export default function Skills() {
                <div className="mt-[133px]">
                     <h4 className='font-bold text-[30px] mb-10 base:text-[24px] xs:text-[18px] xs:leading-5 dark:text-darkPurlpe' >Additional technologies and skills</h4>
                     <ul className='flex justify-between items-center flex-wrap gap-10 dark:text-darkLightPurlpe' >
-                         <li className='marker text-bold xs:text-xs'>Git / GitHub</li>
+                         <li className='marker text-bold xs:text-xs'>Git / GitHub / Gitlab / Bitbucket</li>
                          <li className='marker text-bold xs:text-xs'>CI / CD, GitFlow</li>
-                         <li className='marker text-bold xs:text-xs'>B1 English</li>
+                         <li className='marker text-bold xs:text-xs'>B2 English</li>
                          <li className='marker text-bold xs:text-xs'>Quick learning</li>
-                         <li className='marker text-bold xs:text-xs'>Firebase</li>
+                         <li className='marker text-bold xs:text-xs'>Jira / Trello</li>
                     </ul>
                </div>
           </div>

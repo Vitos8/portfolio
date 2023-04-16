@@ -32,7 +32,7 @@ export const projects = [
           display: 'block'
      },
      {
-          title: 'Rick and Morty App',
+          title: 'Rick and Morty',
           src: 'rick.png',
           stack: ['React', 'Tailwind', 'GraphQL', 'Apollo client', 'Rick and Morty API'],
           code: 'https://github.com/Vitos8/QraphQL--Apolo-tutorial',
@@ -47,14 +47,14 @@ export const projects = [
      //      site: 'https://currency-converter-vitos8.vercel.app/',
      //      display: 'hidden'
      // },
-     {
-          title: 'Digital-Lending',
-          src: 'digital.png',
-          stack: ['HTML' ,'Scss', 'Gulp', "Webpack", 'js'],
-          code: 'https://github.com/Vitos8/Phenomenon-Studio',
-          site: 'https://vitos8.github.io/Phenomen-Studio--Deploy-/',
-          display: 'block'
-     },
+     // {
+     //      title: 'Digital-Lending',
+     //      src: 'digital.png',
+     //      stack: ['HTML' ,'Scss', 'Gulp', "Webpack", 'js'],
+     //      code: 'https://github.com/Vitos8/Phenomenon-Studio',
+     //      site: 'https://vitos8.github.io/Phenomen-Studio--Deploy-/',
+     //      display: 'block'
+     // },
      {
           title: 'Tesla-lending',
           src: 'tesla.png',
@@ -90,6 +90,16 @@ export const progres = [
           level: '75%'
      },
      {
+          tech: 'Typescript',
+          name: 'Advanced',
+          level: '75%'
+     },
+     {
+          tech: 'Next.js',
+          name: 'Advanced',
+          level: '75%'
+     },
+     {
           tech: 'Redux Toolkit',
           name: 'Regular',
           level: '50%'
@@ -100,17 +110,13 @@ export const progres = [
           level: '50%'
      },
      {
-          tech: 'Typescript',
-          name: 'Regualr',
-          level: '50%'
-     },
-     {
-          tech: 'Next.js',
-          name: 'Regualr',
-          level: '50%'
-     },
-     {
           tech: 'GraphQL & Apollo ',
+          name: 'Regualr',
+          level: '50%'
+     },
+     ,
+     {
+          tech: 'Prisma / MongoDB ',
           name: 'Beginner',
           level: '25%'
      }

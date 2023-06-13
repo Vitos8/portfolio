@@ -13,7 +13,7 @@ great problem solving skills, positive attitude and energy , disciplined. I have
 development principles and have demonstrated
 proficiency in building responsive and user-friendly
 interfaces using modern web technologies. For more details, open my resume below. </p>
-                         <Button link={'https://cv.djinni.co/09/601defef7f8a82a5fec5a685aae4f5/FrontendUpwork.pdf'} color={'blue'} bg={'black'} children={'Download CV'} />
+                         <Button link={'https://cv.djinni.co/46/6daf6708c4b24436a296a83d36e803/VitaliyGolubovichCV.pdf-1.pdf'} color={'blue'} bg={'black'} children={'Download CV'} />
                     </div>
                </div>
           </div>

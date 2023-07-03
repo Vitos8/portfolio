@@ -8,12 +8,28 @@ export const projects = [
           display: 'hidden'
      },
      {
-          title: 'Creative todo',
-          src: 'todo.png',
-          stack: ['React', 'Scss', 'React-router', 'json-server', 'Axios'],
-          code: 'https://github.com/Vitos8/Creative-todo',
-          site: 'https://creative-todo.herokuapp.com/',
-          display: 'hidden'
+          title: 'Twitter clone',
+          src: 'tweet.png',
+          stack: ['Next', 'MongoDb', 'Prisma', 'NextAuth', 'React-hook-form', 'Tailwind'],
+          code: 'https://github.com/Vitos8/social-network',
+          site: 'https://social-network-indol.vercel.app',
+          display: 'block'
+     },
+     {
+          title: 'Education landing',
+          src: 'edu.png',
+          stack: ['HTML', 'Scss', 'Bootstrap', 'JS'],
+          code: 'https://github.com/Vitos8/education-landing',
+          site: 'https://vitos8.github.io/education-landing/index.html',
+          display: 'block'
+     },
+     {
+          title: 'FitApp lending',
+          src: 'fit.png',
+          stack: ['HTML', 'Scss', 'Bootstrap', 'JS'],
+          code: 'https://github.com/Vitos8/FitApp-lending',
+          site: 'https://vitos8.github.io/FitApp-lending/',
+          display: 'block'
      },
      {
           title: 'Game store',
@@ -31,46 +47,6 @@ export const projects = [
           site: 'https://quiz-app-vitos8.vercel.app/',
           display: 'block'
      },
-     {
-          title: 'Rick and Morty',
-          src: 'rick.png',
-          stack: ['React', 'Tailwind', 'GraphQL', 'Apollo client', 'Rick and Morty API'],
-          code: 'https://github.com/Vitos8/QraphQL--Apolo-tutorial',
-          site: 'https://qraph-ql-apolo-tutorial.vercel.app/',
-          display: 'block'
-     },
-     // {
-     //      title: 'Currency-Converter',
-     //      src: 'currency.png',
-     //      stack: ['React', 'Tailwind', 'Typescript', 'Currency API'],
-     //      code: 'https://github.com/Vitos8/currency-converter',
-     //      site: 'https://currency-converter-vitos8.vercel.app/',
-     //      display: 'hidden'
-     // },
-     // {
-     //      title: 'Digital-Lending',
-     //      src: 'digital.png',
-     //      stack: ['HTML' ,'Scss', 'Gulp', "Webpack", 'js'],
-     //      code: 'https://github.com/Vitos8/Phenomenon-Studio',
-     //      site: 'https://vitos8.github.io/Phenomen-Studio--Deploy-/',
-     //      display: 'block'
-     // },
-     {
-          title: 'Tesla-lending',
-          src: 'tesla.png',
-          stack: ['HTML' ,'Scss'],
-          code: 'https://github.com/Vitos8/Tesla-lending',
-          site: 'https://vitos8.github.io/Tesla-lending/',
-          display: 'block'
-     },
-     // {
-     //      title: 'Booking app',
-     //      src: 'booking.png',
-     //      stack: ['Native js', 'HTML', 'CSS'],
-     //      code: 'https://github.com/Vitos8/Booking-app',
-     //      site: 'https://vitos8.github.io/Booking-app/',
-     //      display: 'hidden'
-     // },
 ];
 
 export const progres = [
